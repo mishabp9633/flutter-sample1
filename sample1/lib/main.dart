@@ -75,7 +75,8 @@
 //.................. counter app ..................//
 
 import 'package:flutter/material.dart';
-import 'package:sample1/screen_home.dart';
+import 'package:sample1/listview.dart';
+// import 'package:sample1/screen_home.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -90,7 +91,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber, 
       ),
-      home: ScreenHome(),
+      // home: ScreenHome(),
+      home: ListViewSample(),
     );
   }
 }
